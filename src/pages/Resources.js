@@ -55,8 +55,10 @@ const Resources = () => {
                 </p>
                 </div>
                 <div className="col-6 my-auto">
+                    <h1 className="mbrace-font text-left">“</h1>
                     <h1 className="display-5 pt-5 mx-3">Tough times never last but tough people do.</h1>
                     <p className="text-right pt-3 px-5">- Robert H. Schiuller</p>
+                    <h1 className="text-right mbrace-font">”</h1>
                 </div>
             </div>
             <div className="row justify-content-lg-center mbrace-bg-blu px-5 mx-0" id="fade">

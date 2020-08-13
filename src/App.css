@@ -3,7 +3,7 @@
 .mbrace-font {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
-  font-size: 6vw;
+  font-size: 9vw;
   letter-spacing: 0.2vw;
 }
 
@@ -182,5 +182,16 @@ img {
 .mbrace-btn:hover {
   background-color: #ffffff;
   border: 1px #fdcc91 solid;
+  transform: scale(1.1);
+}
+
+#logo {
+  width: 10vw;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+#logo:hover {
   transform: scale(1.1);
 }
