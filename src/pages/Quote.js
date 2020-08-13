@@ -63,7 +63,8 @@ const Quote = () => {
         const mappedQuotes = quotes.map((quote) => {
             return (
                 <div key={quote.id}>
-                    {quote}
+                    {quote.quote}
+                    {quote.author}
                 </div>
             )
         })
@@ -72,7 +73,7 @@ const Quote = () => {
         <div>
             {mappedQuotes}
         </div>
-    )
+    )/api
 }
 
 export default Quote;
