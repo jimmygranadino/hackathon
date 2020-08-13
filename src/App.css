@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+.mbrace-font {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 6vw;
+  letter-spacing: 0.2vw;
+}
+
+.mbrace-center {
+  text-align: center;
+}
+
 .mbrace-bg-1 {
   min-height: 50vh;
   background-image: url('./assets/mountain.jpg');
@@ -6,4 +19,87 @@
   background-size: cover;
   max-height: 100%;
   background-attachment: fixed;
+}
+
+.mbrace-bg-2 {
+  min-height: 50vh;
+  background-image: url('./assets/home.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  background-attachment: fixed;
+}
+
+.mbrace-bg-3 {
+  min-height: 50vh;
+  background-image: url('./assets/about.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  background-attachment: fixed;
+}
+
+.mbrace-emoji-s {
+  transform: perspective(1px) translateZ(0);
+  transition: all 1s;
+  transition-property: transform;
+}
+
+.mbrace-emoji-s:hover {
+  color: #90c5d3;
+  transform: scale(1.15);
+}
+
+.mbrace-emoji-n {
+  transform: perspective(1px) translateZ(0);
+  transition: all 1s;
+  transition-property: transform;
+}
+
+.mbrace-emoji-n:hover {
+  color: #b0d0c1;
+  transform: scale(1.15);
+}
+
+.mbrace-emoji-h {
+  transform: perspective(1px) translateZ(0);
+  transition: all 1s;
+  transition-property: transform;
+}
+
+.mbrace-emoji-h:hover {
+  color: #fdcc91;
+  transform: scale(1.15);
+}
+
+.mbrace-profile {
+  color: #777777;
+  transition: all 0.5s;
+}
+
+.mbrace-profile:hover {
+  color: #222222;
+}
+
+.container {
+  background-color: #f8f9fa;
+}
+
+#fade {
+  animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+img {
+  max-width: 100%;
 }
