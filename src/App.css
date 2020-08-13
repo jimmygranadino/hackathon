@@ -51,6 +51,17 @@
   background-attachment: fixed;
 }
 
+.mbrace-bg-5 {
+  min-height: 50vh;
+  background-image: url('./assets/meh.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 10vw;
+  width: 50%;
+  background-attachment: fixed;
+}
+
 .mbrace-emoji-s {
   transform: perspective(1px) translateZ(0);
   transition: all 1s;
