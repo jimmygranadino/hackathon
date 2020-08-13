@@ -35,18 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "**Designers:** * Kevin Kim * Ann Le * Michael Dalton * Jessie Kim",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/foxen-nicholas/hackathon.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/foxen-nicholas/hackathon/issues"
-  },
-  "homepage": "https://github.com/foxen-nicholas/hackathon#readme"
+  }
 }
