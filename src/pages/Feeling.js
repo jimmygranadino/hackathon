@@ -43,7 +43,9 @@ const Feeling = (props) => {
                 </div>
             </div>
             <div class="row justify-content-center my-5" id="fade">
-                <h1 className="mbrace-font mbrace-center px-auto">Today, I am feeling...</h1>
+                <div class="col-9 px-auto">
+                    <h1 className="mbrace-font mbrace-center px-auto">Today, I am feeling...</h1>
+                </div>
             </div>
             <div class="row justify-content-lg-center text-center pb-5" id="fade">
                 <div class="col-4"  onClick={submitNegative}>
