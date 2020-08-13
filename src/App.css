@@ -150,7 +150,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 19%;
+  min-width: 20%;
   min-height: 25vh;
 }
 
@@ -159,7 +159,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 19%;
+  min-width: 20%;
   min-height: 25vh;
 }
 
@@ -168,15 +168,19 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 19%;
+  min-width: 20%;
   min-height: 25vh;
 }
 
 .mbrace-btn {
   border-radius: 1em;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 .mbrace-btn:hover {
   background-color: #ffffff;
   border: 1px #fdcc91 solid;
+  transform: scale(1.1);
 }

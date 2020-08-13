@@ -1,4 +1,5 @@
 import React from 'react';
+import DigiVent from '../assets/rsc-event1.png'
 
 const Resources = () => {
     return (
@@ -26,14 +27,17 @@ const Resources = () => {
                 </div>
                 <div className="col-3 mbrace-div-bdr py-4 my-4 mx-auto text-left">
                     <h6>2. Use Mental Tactics</h6><br />
-                        <small><p>Make time for relaxation</p></small>
+                        <small><p>Make time for relaxation</p>
+                        <p>Exercise to improve your mood</p>
+                        <p>Do something you love</p>
+                        <p>Limit coffe and alcohol, sugar and starches.</p></small>
                 </div>
                 <div className="col-3 mbrace-div-bdr py-4 my-4 mx-auto text-left">
                 <h6>3. Seek Medical Treatment</h6><br />
-                        <small><p>Step 1</p>
-                        <p>Step 2</p>
-                        <p>Step 3</p>
-                        <p>Step 4</p></small>
+                        <small><p>Exercise to improve your mood</p>
+                        <p>Do something you love</p>
+                        <p>Make time for relaxation</p>
+                        <p>Limit coffe and alcohol, sugar and starches.</p></small>
                 </div>
             </div>
             <div class="row justify-content-lg-center mx-0" id="fade">
@@ -78,9 +82,9 @@ const Resources = () => {
                         <p></p>
                         <small>Remember our Golden Rule: A thin paint sticks to a thick paint. People look at me like I'm a little strange, when I go around talking to squirrels and rabbits and stuff. That's ok. Thaaaat's just ok.</small>
                 </div>
-                <div className="col-4 py-auto mx-0">
+                <div className="col-6 py-auto mx-0">
                         <p className="lead">
-                            Image
+                            <img src={DigiVent} alt="virtual event" />
                         </p>
                 </div>
             </div>
