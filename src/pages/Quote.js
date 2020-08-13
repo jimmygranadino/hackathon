@@ -70,6 +70,7 @@ const Quote = () => {
 
     return (
         <div>
+            
             {mappedQuotes}
         </div>
     )
