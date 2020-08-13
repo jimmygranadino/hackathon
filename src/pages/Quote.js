@@ -70,6 +70,7 @@ const Quote = () => {
 
     return (
         <div>
+            <button onClick={() => handleClick()}>Random quote</button>
             {mappedQuotes}
         </div>
     )
