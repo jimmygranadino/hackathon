@@ -178,4 +178,5 @@ img {
 
 .mbrace-btn:hover {
   background-color: #ffffff;
+  border: 1px #fdcc91 solid;
 }
