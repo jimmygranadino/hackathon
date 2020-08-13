@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Axios from 'axios';
 import { Redirect } from 'react-router-dom'
-const Feeling = () => {
+const Feeling = (props) => {
     let [quote, setQuote] = useState();
     let submitNegative = (e) => {
         e.preventDefault()
@@ -31,8 +31,10 @@ const Feeling = () => {
             .catch(err => console.log(err))
     }
     if (quote) {
-        console.log("Trying to redirect");
-        return <Redirect to={`quote`} quote={quote} />
+        props.setQuote(quote.quote)
+        props.setAuthor(quote.author)
+        console.log("Trying to redirect using quote " + quote.quote + " by " + quote.author);
+        return <Redirect to={`quote`} />
     }
     return (
         <>
