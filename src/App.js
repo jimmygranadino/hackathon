@@ -6,6 +6,7 @@ import Navbar from './pages/Navbar'
 import Feeling from './pages/Feeling'
 import About from './pages/About'
 import Quote from './pages/Quote'
+import Resources from './pages/Resources'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
             <Route exact path="/feeling" component={Feeling} />
             <Route exact path="/about" component={About} />
             <Route exact path="/quote" component={Quote} />
+            <Route exact path="/resources" component={Resources} />
           </Router>
     </div>
   );

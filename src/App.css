@@ -103,3 +103,28 @@
 img {
   max-width: 100%;
 }
+
+.mbrace-bg-org {
+  background-color:#fdcc91;
+}
+
+.mbrace-bg-grn {
+  background-color:#b0d0c1;
+}
+
+.mbrace-bg-blu {
+  background-color:#90c5d3;
+}
+
+.mbrace-bg-pnk {
+  background-color:#e0c0c5;
+}
+
+.mbrace-bg-prp {
+  background-color:#cfd4f2;
+}
+
+.mbrace-div-bdr {
+  background-color: #ffffff;
+  border-radius: 1em;
+}

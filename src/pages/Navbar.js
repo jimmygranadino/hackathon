@@ -12,9 +12,10 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarColor03">
                     <ul class="navbar-nav mr-auto">
                         <Link class="nav-link" to="/">Home</Link>
+                        <Link class="nav-link" to="/resources">Resources</Link>
+                        <Link class="nav-link" to="/about">About</Link>
                         <Link class="nav-link" to="/feeling">Feeling</Link>
                         <Link class="nav-link" to="/quote">Quote</Link>
-                        <Link class="nav-link" to="/about">About</Link>
                     </ul>
                     <a class="nav-link" href="#">
                         <svg width="3vw" height="3vw" viewBox="0 0 16 16" class="bi bi-person-circle mbrace-profile" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
