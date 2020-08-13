@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -10,28 +11,19 @@ const Navbar = () => {
                     </button>
                 <div class="collapse navbar-collapse" id="navbarColor03">
                     <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Community</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
+                        <Link class="nav-link" to="/">Home</Link>
+                        <Link class="nav-link" to="/resources">Resources</Link>
+                        <Link class="nav-link" to="/about">About</Link>
+                        <Link class="nav-link" to="/feeling">Feeling</Link>
+                        <Link class="nav-link" to="/quote">Quote</Link>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" />
-                    <a class="" type="submit">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-                        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    <a class="nav-link" href="#">
+                        <svg width="3vw" height="3vw" viewBox="0 0 16 16" class="bi bi-person-circle mbrace-profile" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
                         </svg>
                     </a>
-                    </form>
                 </div>
             </nav>
         </>

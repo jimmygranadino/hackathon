@@ -14,8 +14,8 @@
 ## Web App: Motivational/Inspo quote generator
 
 TODO:
-- [ ] Setup database with relevant fields
-    - [ ] FIELDS: id (integer), quote (string), author (string), sentiment (string)
+- [x] Setup backend with relevant fields
+    - [x] FIELDS: id (integer), quote (string), author (string), sentiment (string)
 - [ ] GET route for quote
     - [ ] Stretch Goal: POST route with form page for any visitor to add 
-- [ ] Frontend design - bootstrap? or homegrown CSS?
+- [x] Frontend design - Bootstrap with some custom CSS
