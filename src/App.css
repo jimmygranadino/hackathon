@@ -41,6 +41,16 @@
   background-attachment: fixed;
 }
 
+.mbrace-bg-4 {
+  min-height: 50vh;
+  background-image: url('./assets/resources.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+  background-attachment: fixed;
+}
+
 .mbrace-emoji-s {
   transform: perspective(1px) translateZ(0);
   transition: all 1s;
@@ -88,7 +98,7 @@
 }
 
 #fade {
-  animation: fadein 1.5s;
+  animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -127,4 +137,45 @@ img {
 .mbrace-div-bdr {
   background-color: #ffffff;
   border-radius: 1em;
+}
+
+.mbrace-rnd-bdr {
+  background-color: #ffffff;
+  min-height: 23vh;
+  border-radius: 50%;
+}
+
+.mbrace-rsc-1 {
+  background-image: url('./assets/rsc1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 19%;
+  min-height: 25vh;
+}
+
+.mbrace-rsc-2 {
+  background-image: url('./assets/rsc2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 19%;
+  min-height: 25vh;
+}
+
+.mbrace-rsc-3 {
+  background-image: url('./assets/rsc3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 19%;
+  min-height: 25vh;
+}
+
+.mbrace-btn {
+  border-radius: 1em;
+}
+
+.mbrace-btn:hover {
+  background-color: #ffffff;
 }
